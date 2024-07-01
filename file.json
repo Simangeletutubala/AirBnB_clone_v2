@@ -16,5 +16,29 @@
     "created_at": "2024-07-01T01:22:24.215016",
     "updated_at": "2024-07-01T01:22:24.215016",
     "__class__": "User"
+  },
+  "BaseModel.5ee31662-6165-4b1d-8b7c-128a997e5143": {
+    "id": "5ee31662-6165-4b1d-8b7c-128a997e5143",
+    "created_at": "2024-07-01T02:29:46.570258",
+    "updated_at": "2024-07-01T02:29:46.570258",
+    "name": "'kelly'",
+    "age": "10",
+    "__class__": "BaseModel"
+  },
+  "BaseModel.d0c36cb5-f45e-4be4-b86c-029cd2124e01": {
+    "id": "d0c36cb5-f45e-4be4-b86c-029cd2124e01",
+    "created_at": "2024-07-01T02:36:58.386681",
+    "updated_at": "2024-07-01T02:36:58.387592",
+    "name": "cs free",
+    "age": "10",
+    "__class__": "BaseModel"
+  },
+  "BaseModel.eaa4c0a6-f239-4c67-b047-f4260537de7b": {
+    "id": "eaa4c0a6-f239-4c67-b047-f4260537de7b",
+    "created_at": "2024-07-01T02:38:54.569573",
+    "updated_at": "2024-07-01T02:38:54.569573",
+    "name": "kel ly",
+    "age": "10 ",
+    "__class__": "BaseModel"
   }
 }
