@@ -3,7 +3,7 @@
 import unittest
 from unittest.mock import patch
 from io import StringIO
-import pycodestyle
+import pep8
 import os
 import json
 import console
