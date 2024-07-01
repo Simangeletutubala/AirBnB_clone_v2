@@ -1,44 +1,43 @@
 {
-  "Place.2a26e754-19d1-4c9e-a361-8921f2fec977": {
-    "id": "2a26e754-19d1-4c9e-a361-8921f2fec977",
-    "created_at": "2024-07-01T01:13:54.409395",
-    "updated_at": "2024-07-01T01:13:54.409395",
-    "__class__": "Place"
+  "State.a23fb00f-3ba0-472c-817e-c3bf7b682d91": {
+    "id": "a23fb00f-3ba0-472c-817e-c3bf7b682d91",
+    "created_at": "2024-07-01T03:06:23.204066",
+    "updated_at": "2024-07-01T03:06:23.204066",
+    "name": "California",
+    "__class__": "State"
   },
-  "BaseModel.616562e4-1cbf-4e7a-a7f1-bfd300a60e3b": {
-    "id": "616562e4-1cbf-4e7a-a7f1-bfd300a60e3b",
-    "created_at": "2024-07-01T01:22:16.499399",
-    "updated_at": "2024-07-01T01:22:16.499399",
-    "__class__": "BaseModel"
+  "City.85489615-370f-43bc-943d-84224cc7140b": {
+    "id": "85489615-370f-43bc-943d-84224cc7140b",
+    "created_at": "2024-07-01T03:06:23.204066",
+    "updated_at": "2024-07-01T03:06:23.204066",
+    "state_id": "a23fb00f-3ba0-472c-817e-c3bf7b682d91",
+    "name": "San Francisco is super cool",
+    "__class__": "City"
   },
-  "User.7de9a505-5ab1-4ac8-9314-c113c4785bf2": {
-    "id": "7de9a505-5ab1-4ac8-9314-c113c4785bf2",
-    "created_at": "2024-07-01T01:22:24.215016",
-    "updated_at": "2024-07-01T01:22:24.215016",
+  "User.d75d63df-3697-4498-a148-087be0109174": {
+    "id": "d75d63df-3697-4498-a148-087be0109174",
+    "created_at": "2024-07-01T03:06:23.204066",
+    "updated_at": "2024-07-01T03:06:23.208932",
+    "email": "my@me.com",
+    "password": "pwd",
+    "frist_name": "FN",
+    "last_name": "LN",
     "__class__": "User"
   },
-  "BaseModel.5ee31662-6165-4b1d-8b7c-128a997e5143": {
-    "id": "5ee31662-6165-4b1d-8b7c-128a997e5143",
-    "created_at": "2024-07-01T02:29:46.570258",
-    "updated_at": "2024-07-01T02:29:46.570258",
-    "name": "'kelly'",
-    "age": "10",
-    "__class__": "BaseModel"
-  },
-  "BaseModel.d0c36cb5-f45e-4be4-b86c-029cd2124e01": {
-    "id": "d0c36cb5-f45e-4be4-b86c-029cd2124e01",
-    "created_at": "2024-07-01T02:36:58.386681",
-    "updated_at": "2024-07-01T02:36:58.387592",
-    "name": "cs free",
-    "age": "10",
-    "__class__": "BaseModel"
-  },
-  "BaseModel.eaa4c0a6-f239-4c67-b047-f4260537de7b": {
-    "id": "eaa4c0a6-f239-4c67-b047-f4260537de7b",
-    "created_at": "2024-07-01T02:38:54.569573",
-    "updated_at": "2024-07-01T02:38:54.569573",
-    "name": "kel ly",
-    "age": "10 ",
-    "__class__": "BaseModel"
+  "Place.e44c54ca-55d9-4250-b035-2fbbeaed42fc": {
+    "id": "e44c54ca-55d9-4250-b035-2fbbeaed42fc",
+    "created_at": "2024-07-01T03:06:23.208932",
+    "updated_at": "2024-07-01T03:06:23.208932",
+    "city_id": "85489615-370f-43bc-943d-84224cc7140b",
+    "user_id": "d75d63df-3697-4498-a148-087be0109174",
+    "name": "My house",
+    "description": "no description yet",
+    "number_rooms": "4",
+    "number_bathrooms": "0",
+    "max_guest": "-3",
+    "price_by_night": "100",
+    "latitude": "-120.12",
+    "longitude": "0.41921928",
+    "__class__": "Place"
   }
 }
